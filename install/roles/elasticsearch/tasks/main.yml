@@ -93,7 +93,7 @@
     state=link
   become: true
 
-# this seems like a packaging bug for 6.x
+# this seems like a packaging bug for 7.x
 - name: Create log directory structure for ES
   file:
     path: /usr/share/elasticsearch/logs
